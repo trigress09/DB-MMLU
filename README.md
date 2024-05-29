@@ -13,8 +13,38 @@ This repository containe:
 - The DB-MMLU dataset
 - Completions from all the models tested
 
-### Results
+### Results :trophy:
+| **Model** | **Normal Accuracy** | **Misleading Accuracy** | **Susceptibility** | **Consistency** |
+| :-------- | :-----------------: | :---------------------: | :----------------: | :-------------: |
+| Gemma-1.1-2b-it | 34.88 | 18.92 | 2.53 | 45.18 |
+| Phi-2 | 45.22 | 20.60 | 2.39 | 38.05 |
+| Phi-3-mini-4k-instruct | **68.01** | **41.81** | **1.63** | **53.60** |
+| Phi-3-medium-4k-instruct | - | - | - | - |
+| Mistral-7b-instruct-v0.2 | 52.07 | 31.40 | 1.65 | 44.38 |
+| Meta-Llama-3-8B-Instruct | 52.41 | 30.87 | 1.75 | 46.46 |
+| DeciLM-7B-instruct | 51.84 | 25.17 | 2.21 | 39.12 |
+| Aya-23-8B | 48.61 | 20.37 | 2.65 | 35.36 |
+| Solar-10.7B-Instruct | - | - | - | - |
 
-### Contact
+### Contact :email:
+- **Rukun Dou**: rukun.dou2004@gmail.com
 
-### Citation
+### Citation :paperclip:
+```
+@article{dou2024,
+  title={Deception-Based Benchmarking: Measuring LLM Susceptibility to Induced Hallucination in Reasoning Tasks Using Misleading Prompts},
+  author={Rukun Dou},
+  journal={Complete here},
+  year={2024}
+}
+```
+
+Please consider citing MMLU, the dataset from which DB-MMLU is derived.
+```
+@article{hendryckstest2021,
+  title={Measuring Massive Multitask Language Understanding},
+  author={Dan Hendrycks and Collin Burns and Steven Basart and Andy Zou and Mantas Mazeika and Dawn Song and Jacob Steinhardt},
+  journal={Proceedings of the International Conference on Learning Representations (ICLR)},
+  year={2021}
+}
+```
