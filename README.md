@@ -18,13 +18,14 @@ This repository containe:
 | :-------- | :-----------------: | :---------------------: | :----------------: | :-------------: |
 | Gemma-1.1-2b-it | 34.88 | 18.92 | 2.53 | 45.18 |
 | Phi-2 | 45.22 | 20.60 | 2.39 | 38.05 |
-| Phi-3-mini-4k-instruct | **68.01** | **41.81** | **1.63** | **53.60** |
-| Phi-3-medium-4k-instruct | - | - | - | - |
+| Phi-3-mini-4k-instruct | 68.01 | 41.81 | 1.63 | 53.60 |
+| Phi-3-medium-4k-instruct | **77.42** | 40.71 | 1.90 | 48.29 |
 | Mistral-7b-instruct-v0.2 | 52.07 | 31.40 | 1.65 | 44.38 |
 | Meta-Llama-3-8B-Instruct | 52.41 | 30.87 | 1.75 | 46.46 |
 | DeciLM-7B-instruct | 51.84 | 25.17 | 2.21 | 39.12 |
 | Aya-23-8B | 48.61 | 20.37 | 2.65 | 35.36 |
-| Solar-10.7B-Instruct | - | - | - | - |
+| Solar-10.7B-Instruct | 62.72 | **52.36** | **1.20** | **68.26** |
+| StarChat2-15B-v0.1 | 44.29 | 26.93 | 1.69 | 45.44 |
 
 ### Contact :email:
 - **Rukun Dou**: rukun.dou2004@gmail.com
