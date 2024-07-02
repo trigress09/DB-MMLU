@@ -1,6 +1,6 @@
 # Deception-Based Benchmarking: Measuring LLM Susceptibility to Induced Hallucination in Reasoning Tasks Using Misleading Prompts
 
-This is the repository for [Deception-Based Benchmarking](https://www.google.ca) by Rukun Dou. We proposed a new methodology to evaluate a LLM's susceptibility to hallucination: compare the model's result on any benchmark when letting it answer normally and when forcing it to start its answer with a misleading prompt. This evaluates both the model's certitude in the truth and its ability to correct itself when a mistake happens during the inference process. The models are then evaluated on three metrics:
+This is the repository for [Deception-Based Benchmarking](https://www.preprints.org/manuscript/202407.0120/v1) by Rukun Dou. We proposed a new methodology to evaluate a LLM's susceptibility to hallucination: compare the model's result on any benchmark when letting it answer normally and when forcing it to start its answer with a misleading prompt. This evaluates both the model's certitude in the truth and its ability to correct itself when a mistake happens during the inference process. The models are then evaluated on three metrics:
 - **Accuracy**:  the score obtained on the benchmark for each category independently (higher is better)
 - **Susceptibility**: a relative indicator of the likelihood that the model is influenced by the misleading prompt (lower is better)
 - **Consistency**: the percentage of answers that are the same for both categories, regardless of whether the answer is correct or not.(higher is better)
