@@ -35,7 +35,7 @@ This repository contains:
 @article{dou2024,
   title={Deception-Based Benchmarking: Measuring LLM Susceptibility to Induced Hallucination in Reasoning Tasks Using Misleading Prompts},
   author={Rukun Dou},
-  journal={Complete here},
+  journal={Preprint.org},
   year={2024}
 }
 ```
